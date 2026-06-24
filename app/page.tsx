@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import SurveySection from '@/components/SurveySection'
 
 /* ── Data ─────────────────────────────────────────────────────────────────── */
 
@@ -387,6 +388,9 @@ export default function Page() {
             ))}
           </div>
         </section>
+
+        {/* ── Survey ── */}
+        <SurveySection />
 
         {/* ── Connect ── */}
         <section id="connect" className="section" style={{ paddingTop: 0 }}>
