@@ -8,7 +8,7 @@ import SurveySection from '@/components/SurveySection'
 const ROLES = ['個人開発者', 'SaaS Builder', 'Next.js エンジニア', 'プロダクト志向のエンジニア']
 
 const STATS = [
-  { n: 28,  suffix: '',  label: 'アプリを製作' },
+  { n: 59,  suffix: '',  label: 'アプリを製作' },
   { n: 3,   suffix: '',  label: 'ヶ月で達成' },
   { n: 5,   suffix: '+', label: 'SaaS 本番稼働' },
   { n: 100, suffix: '+', label: '万を目指して' },
@@ -51,7 +51,7 @@ const SKILLS_REST = ['Firestore', 'Stripe', 'Tailwind CSS', 'D3.js', 'Node.js', 
 const LINKS = [
   { icon: '𝕏', label: 'X (Twitter)', sub: '@Yoko_ai_dev',          url: 'https://x.com/Yoko_ai_dev',                     hue: '0,0%,0%' },
   { icon: '📝', label: 'note',         sub: 'note.com/yoko_ai_logic', url: 'https://note.com/yoko_ai_logic',               hue: '171,57%,51%' },
-  { icon: '🚀', label: 'Portfolio',    sub: '28本収録',                url: 'https://yokoportofolio.vercel.app',            hue: '239,84%,62%' },
+  { icon: '🚀', label: 'Portfolio',    sub: '59本収録',                url: 'https://yokoportofolio.vercel.app',            hue: '239,84%,62%' },
   { icon: '📸', label: 'Instagram',    sub: '@yoncornrow',            url: 'https://www.instagram.com/yoncornrow/',        hue: '340,82%,59%' },
   { icon: '💼', label: 'LinkedIn',     sub: '小野 陽広',               url: 'https://www.linkedin.com/in/陽広-小野-9018b439a',        hue: '199,100%,35%' },
   { icon: '✉️', label: 'DM 受付中',    sub: 'X のDMへどうぞ',          url: 'https://x.com/Yoko_ai_dev',                   hue: '239,60%,50%' },
@@ -275,6 +275,7 @@ export default function Page() {
           <li><a href="#works">Works</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#connect">Connect</a></li>
+          <li><a href="/hire">ご依頼</a></li>
         </ul>
       </nav>
 
@@ -295,13 +296,16 @@ export default function Page() {
             <a href="https://yokoportofolio.vercel.app" className="btn-primary">
               ポートフォリオを見る →
             </a>
+            <a href="/hire" className="btn-secondary">
+              制作のご依頼・料金 →
+            </a>
             <a href="https://x.com/Yoko_ai_dev" target="_blank" rel="noopener noreferrer" className="btn-secondary">
               𝕏 フォローする
             </a>
           </div>
 
           <div className="hero-pills">
-            <span className="hero-pill"><strong>28本</strong>のアプリを製作</span>
+            <span className="hero-pill"><strong>59本</strong>のアプリを製作</span>
             <span className="hero-pill"><strong>3ヶ月</strong>で達成</span>
             <span className="hero-pill">公立千歳科学技術大学</span>
             <span className="hero-pill">電子光工学科 3年</span>
@@ -324,7 +328,7 @@ export default function Page() {
             <p className="story-text">
               北海道の大学で<strong>電子光工学</strong>を学びながら、
               深夜にコードを書き続けています。<br /><br />
-              最初の1本を作ってから3ヶ月で<strong>28本のWebアプリ</strong>を製作。
+              最初の1本を作ってから<strong>59本のWebアプリ</strong>を製作し、55本が今も稼働中。
               TypeScript / Next.js / Firebase を軸に、
               アイデアを<strong>最短1〜3日でプロダクトに変える</strong>開発者です。<br /><br />
               目指しているのは「副業の月5万」じゃない。
@@ -371,7 +375,7 @@ export default function Page() {
               className="btn-secondary"
               style={{ display: 'inline-flex' }}
             >
-              全28本のプロダクトを見る →
+              全59本のプロダクトを見る →
             </a>
           </div>
         </section>
